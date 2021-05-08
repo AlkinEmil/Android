@@ -58,6 +58,4 @@ class MyFileAdapter(private val context: Context, private val fileList: Array<St
             )
         }
     }
-
-
 }

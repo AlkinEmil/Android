@@ -52,24 +52,6 @@ class Activity_two : AppCompatActivity() {
 
         dialog.dismiss()
 
-        //val text = this.openFileInput("myfile").bufferedReader().useLines { lines ->
-        //    lines.fold("") { some, text ->
-        //        "$some\n$text"
-        //    }
-        //}
-
-        //val byteArray = this.openFileInput("myfile").readBytes()
-        //val bmp = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.size)
-        //val image: ImageView = findViewById<View>(R.id.imageView) as ImageView
-        //image.setImageBitmap(
-        //    Bitmap.createScaledBitmap(
-        //        bmp,
-        //        500,
-        //        400,
-        //        false
-        //    )
-        //)
-
         var counter: TextView = findViewById(R.id.textView3)
         counter.text = counter.text.toString() + " (" + this.fileList().size.toString() + ")"
     }

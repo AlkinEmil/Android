@@ -37,25 +37,6 @@ class MyHitAdapter(private val context: Context, private val hitList: Pix):Recyc
             itemView.context.openFileOutput(filename, Context.MODE_PRIVATE).use {
                 it.write(byteArray)
             }
-
-            //var file = wrapper.getDir("images", Context.MODE_PRIVATE)
-            // Create a file to save the image
-            //file = File(file, "${UUID.randomUUID()}.jpg")
-            //try {
-                // Get the file output stream
-                //val stream: OutputStream = FileOutputStream(file)
-                // Compress bitmap
-                //bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream)
-                // Flush the stream
-                //stream.flush()
-                // Close stream
-                //stream.close()
-            //} catch (e: IOException){ // Catch the exception
-                //e.printStackTrace()
-            //}
-
-            // Return the saved image uri
-            //return Uri.parse(file.absolutePath)
         }
 
         fun bind(listItem: Hit) {

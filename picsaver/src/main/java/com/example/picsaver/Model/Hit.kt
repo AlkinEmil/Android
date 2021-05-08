@@ -1,6 +1,5 @@
 package com.example.picsaver.Model
 
-
 data class Hit(
     var id: Int? = null,
     var pageURL: String? = null,
