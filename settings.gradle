@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "MyTracker"
+include ':p0031firstapplication'
+include ':picsaver'

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PicSaver</string>
+    <string name="title_home">Поиск</string>
+    <string name="title_dashboard">Картинки</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="welcome">Добро пожаловать в приложение для поиска и сохранения картинок!</string>
+    <string name="search_button">Поиск</string>
+    <string name="welcome_to_search">Здесь будет чудо!</string>
+    <string name="Hint_to_search">Ключевые слова</string>
+    <string name="hint">Ключевые слова</string>
+    <string name="to2act">Скачанные картинки</string>
+    <string name="to1act">Поиск картинок</string>
+    <string name="tags">tags</string>
+    <string name="views_count">0</string>
+    <string name="user">user</string>
+    <string name="download_button">Скачать</string>
+    <string name="saved_files_count">Скачанные картинки:</string>
+    <string name="delete_button">Удалить</string>
+</resources>
